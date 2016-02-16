@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_OBJECT_FINDER" id="75D99E7F-05F9-C6D1-B8A7-673D26D96096" version="3.5">
-<createdBy>Juceboper</createdBy>
-<createdTime>2016-02-16 04:13:04 UTC</createdTime>
-<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>75D99E7F-05F9-C6D1-B8A7-673D26D96096</designId>
-</OSDM_Design>

@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D992E981-383E-AB70-1DA7-B679F32A3DF8">
-<createdBy>Juceboper</createdBy>
-<createdTime>2016-02-16 04:13:04 UTC</createdTime>
-<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

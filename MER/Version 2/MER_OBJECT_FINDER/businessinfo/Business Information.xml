@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="87E65DA4-AADD-C2D8-C6AB-AA2029479EF4">
-<createdBy>Juceboper</createdBy>
-<createdTime>2016-02-16 04:13:04 UTC</createdTime>
-<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
