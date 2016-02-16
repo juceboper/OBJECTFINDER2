@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="239E637A-F88E-AD8D-029D-D36EB5DE72EE" name="INTEGRACION">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:22:02 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INTEGRACION" id="3F285746-C217-0A41-A762-8AA5A4976650">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:54:23 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_INTEGRACION" id="B655C38A-0297-10CD-831B-93E2721ACC5B">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:55:41 UTC</createdTime>
+<commentInRDBMS>EN ESTA PARTE ES DONDE SE VAN A GUARDAR LOS TIPOS DE INTEGRACION DEL SISTEMA, ES DECIR SI LA PERSONA SE LOGUA POR:&lt;br/&gt;1. GOOGLE +&lt;br/&gt;2. FACEBOOK&lt;br/&gt;2. NATIVO</commentInRDBMS>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CE0E9C5-5701-4EF7-407B-E87F65489B9F" name="INTEGRACION_PK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:54:23 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F285746-C217-0A41-A762-8AA5A4976650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

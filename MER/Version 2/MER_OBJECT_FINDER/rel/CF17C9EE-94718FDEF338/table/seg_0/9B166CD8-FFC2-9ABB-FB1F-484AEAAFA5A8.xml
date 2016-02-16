@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B166CD8-FFC2-9ABB-FB1F-484AEAAFA5A8" name="GENERO">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:20:01 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GENERO" id="EFA15ADF-7CC8-A045-FBDC-B0D310F76376">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:50:01 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GENERO" id="02E52D45-DF73-2AE4-5C2F-E0B612F0B9C9">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:50:19 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42C6836C-D5A4-AE13-43A1-F9B4F42DAA6F" name="GENERO_PK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:50:03 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFA15ADF-7CC8-A045-FBDC-B0D310F76376"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

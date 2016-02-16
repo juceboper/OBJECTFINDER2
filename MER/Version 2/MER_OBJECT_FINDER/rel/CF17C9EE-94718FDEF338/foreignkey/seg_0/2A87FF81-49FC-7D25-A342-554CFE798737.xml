@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2A87FF81-49FC-7D25-A342-554CFE798737" containerWithKeyObject="0AF9DD4F-0C09-599A-E144-8E4D88CB7207" localFKIndex="08E51452-9735-DB7B-D9F5-506B961993EC" name="REGISTRO_ESTADO_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:15:15 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C34E97C-A004-E62B-D9A3-CC6F4512E1CA</referredTableID>
+<keyObject>7980CD68-CED2-3C2F-392E-D2BFCF35F73A</keyObject>
+<referredKeyID>7980CD68-CED2-3C2F-392E-D2BFCF35F73A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

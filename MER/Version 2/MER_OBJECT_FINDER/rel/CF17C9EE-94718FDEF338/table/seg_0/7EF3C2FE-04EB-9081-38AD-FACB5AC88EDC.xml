@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EF3C2FE-04EB-9081-38AD-FACB5AC88EDC" name="PROCESO_REGISTRO">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:23:10 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROCESO" id="5AF6BA0F-0D11-3476-471B-943AF5BDE2B9">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:58:02 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROCESO" id="AC9F4F67-AB21-1AF1-2A3B-35AEADA1FC53">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:03:30 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA01E6CA-AF47-751D-23B1-9DBBA18904F4" name="PROCESO_REGISTRO_PK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:58:02 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF6BA0F-0D11-3476-471B-943AF5BDE2B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

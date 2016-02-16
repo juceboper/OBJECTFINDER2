@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14C223CE-DD00-3376-26C7-6B8BE37AC1DF" name="USUARIO">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:19:30 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="8175CC67-2E23-FF71-5BAF-3E7F34D31E80">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:50:51 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_NOMBRE" id="2362DF78-5637-D0CF-49E5-AC139A95F0B1">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_NOMBRE" id="913D3666-1B6B-A42E-0687-7FAA2A9F2BC8">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="EBE10FC9-B687-ED95-EF97-708428FE0A9F">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_APELLIDO" id="D4E06617-2E94-44B7-CF4B-20BA6201C96B">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="9979B9BF-4153-8AEB-4A33-A8480093A87E">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO" id="9B1EBAED-4A32-C8EF-8E79-468E742D98DD">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:52:44 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="9C99A200-3626-BFB3-C7D6-5F09426AA434">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR" id="2607AA96-61CE-2573-EAFD-E17E08B72F0C">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="9B230A0F-31B9-3B34-BCA4-4A4A9C11144A">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="C9B41265-17C2-95AC-DF92-855BC3607672">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GENERO" id="0252F486-C70F-3C06-6E75-F3083473A8A8">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_INTEGRACION" id="5C137E87-1B99-F261-D6D0-41CD9A832A9B">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:53:46 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTEGRACION_ID_INTEGRACION" id="90E1488D-4DB8-D58F-FD48-C3A92051879D">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:56:02 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42F4EA13-4C84-2541-0FB6-03BC57566712" referredColumn="3F285746-C217-0A41-A762-8AA5A4976650"/>
+</associations>
+</Column>
+<Column name="GENERO_ID_GENERO" id="1C6C4AAA-2D46-0CCC-E148-45496D29CA73">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:56:34 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20101371-76AD-543C-3FC6-CC599CA2AC0D" referredColumn="EFA15ADF-7CC8-A045-FBDC-B0D310F76376"/>
+</associations>
+</Column>
+<Column name="ESTADO_ID_ESTADO" id="BF562051-355A-79E2-1890-21229BA79F4B">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:24:01 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9556017-777F-65C7-0292-467189A6F60F" referredColumn="51E05E58-ADB6-E56A-BD0D-7C9C90473DA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65FA0C15-BF63-9006-F612-8935B6F8F379" name="USUARIO_PK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:50:51 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8175CC67-2E23-FF71-5BAF-3E7F34D31E80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B4D6D4-421C-5377-4E32-1C1C0DC1712B" name="USUARIO_INTEGRACION_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:56:02 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90E1488D-4DB8-D58F-FD48-C3A92051879D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="682C817F-4F41-6FE2-9D34-0AC72BC06EC5" name="USUARIO_GENERO_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:56:34 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6C4AAA-2D46-0CCC-E148-45496D29CA73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D34780BD-4E3B-862E-1ADE-8E11E2E64D05" name="USUARIO_ESTADO_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:24:01 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF562051-355A-79E2-1890-21229BA79F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

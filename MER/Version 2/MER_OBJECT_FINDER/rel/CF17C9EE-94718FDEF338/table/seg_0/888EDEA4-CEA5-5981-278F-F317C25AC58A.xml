@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="888EDEA4-CEA5-5981-278F-F317C25AC58A" name="NOTIFICACION">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 04:21:49 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTIFICACION" id="098B0468-BBF4-C0C9-0F9B-E8CE54134586">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:17:37 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_OBJETO" id="056CE092-281E-257C-D374-94F5CCEFFBDA">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:17:58 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="B71D3D58-972B-3931-C210-910D47E47873">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:18:14 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NOTIFICACION" id="7AD0CC53-BDAF-7A6B-9C96-48C6B0D92BD9">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:18:40 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE_NOTIFICACION" id="EFA6DE71-97B4-7CDF-4965-52DE5BE52881">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:19:15 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJETO_ID_OBJETO" id="A5DC29AA-3D70-7C8A-2368-A76F4E1DB9F0">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:19:43 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E325BF64-329B-1932-9733-976B09DC7629" referredColumn="046DED88-1A27-BCF8-D4DC-7017B37EE76E"/>
+</associations>
+</Column>
+<Column name="OBJETO_ID_CATEGORIA" id="8124E39C-D208-FEBF-9A4C-05640A4DDCA4">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:19:43 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E325BF64-329B-1932-9733-976B09DC7629" referredColumn="C1538473-BF8B-9CEF-E86E-09C0AB2CDD83"/>
+</associations>
+</Column>
+<Column name="USUARIO_ID_USUARIO" id="51D43842-1AFF-46F0-6DDC-38B810C28BE7">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:20:00 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E935072-2A62-D4B4-9A3C-C21C940F918A" referredColumn="8175CC67-2E23-FF71-5BAF-3E7F34D31E80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8282FCB-B509-DCCC-6A47-809FD075AD59" name="NOTIFICACION_PK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:17:40 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098B0468-BBF4-C0C9-0F9B-E8CE54134586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B304BB-9720-C876-8C00-D884565C298C" name="NOTIFICACION_OBJETO_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:19:43 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5DC29AA-3D70-7C8A-2368-A76F4E1DB9F0"/>
+<colUsage columnID="8124E39C-D208-FEBF-9A4C-05640A4DDCA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E3FEDDD-E82C-F4FE-1332-15310004C713" name="NOTIFICACION_USUARIO_FK">
+<createdBy>Juceboper</createdBy>
+<createdTime>2016-02-16 05:20:00 UTC</createdTime>
+<ownerDesignName>MER_OBJECT_FINDER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D43842-1AFF-46F0-6DDC-38B810C28BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
