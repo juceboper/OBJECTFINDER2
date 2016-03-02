@@ -241,6 +241,7 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Ow
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.Google.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.Twitter.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csprojResolveAssemblyReference.cache
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.Migrations.InitialCreate.resources
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csproj.GenerateResource.Cache
