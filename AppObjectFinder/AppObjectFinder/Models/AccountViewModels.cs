@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace AppObjectFinder.Models
@@ -66,8 +67,43 @@ namespace AppObjectFinder.Models
     {
         [Required]
         [EmailAddress]
-        [Display(Name = "Correo electrónico")]
+        [Display(Name = "Correo Electrónico")]
         public string Email { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Primer Nombre")]
+        public string primerNombre { get; set; }
+
+        [StringLength(50)]
+        [Display(Name = "Segundo Nombre")]
+        public string segundoNombre { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Primer Apellido")]
+        public string primerApellido { get; set; }
+
+        [StringLength(50)]
+        [Display(Name = "Segundo Apellido")]
+        public string segundoApellido { get; set; }
+
+        [StringLength(10)]
+        [Display(Name = "Género")]
+        public string Genero { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [Display(Name = "Fecha Nacimiento")]
+        public DateTime fechaNacimiento { get; set; }
+
+        [StringLength(10)]
+        [Display(Name = "Teléfono")]
+        public string Telefono { get; set; }
+
+        [StringLength(10)]
+        [Display(Name = "Celular")]
+        public string Celular { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "El número de caracteres de {0} debe ser al menos {2}.", MinimumLength = 6)]
