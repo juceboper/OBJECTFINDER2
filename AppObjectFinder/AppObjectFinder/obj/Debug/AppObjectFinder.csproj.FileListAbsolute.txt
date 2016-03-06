@@ -245,18 +245,18 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObj
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.Migrations.InitialCreate.resources
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csproj.GenerateResource.Cache
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\ApplicationInsights.config
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\csc.exe
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Reflection.Metadata.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\vbc.exe
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\AppObjectFinder.dll.config
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\AppObjectFinder.dll
@@ -324,10 +324,6 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Mi
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.Migrations.InitialCreate.resources
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csproj.GenerateResource.Cache
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.dll
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\System.Web.Helpers.resources.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\System.Web.Mvc.resources.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\System.Web.Optimization.resources.dll
@@ -347,4 +343,10 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.Migrations.InitialCreate.resources
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csproj.GenerateResource.Cache
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csprojResolveAssemblyReference.cache
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Facebook.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Facebook.xml

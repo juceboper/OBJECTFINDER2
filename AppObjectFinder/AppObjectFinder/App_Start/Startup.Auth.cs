@@ -54,15 +54,15 @@ namespace AppObjectFinder
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "234201840256488",
+               appSecret: "7bd4ca09e12041ba3862060745893038");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "609249337144-l3imd9bejfp66jdm6kh43r0d09u9264i.apps.googleusercontent.com",
+                ClientSecret = "DclVEJprg-BQ5EvT70hkZEih"
+            });
         }
     }
 }
