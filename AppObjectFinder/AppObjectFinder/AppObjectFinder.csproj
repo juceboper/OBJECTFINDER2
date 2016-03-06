@@ -203,6 +203,9 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PrincipalController.cs" />
+    <Compile Include="Controllers\QueryObjectController.cs" />
+    <Compile Include="Controllers\RegisterObjectController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,6 +228,14 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Icono.png" />
+    <Content Include="PlantillaPrincipal\css\3-col-portfolio.css" />
+    <Content Include="PlantillaPrincipal\css\bootstrap.css" />
+    <Content Include="PlantillaPrincipal\css\bootstrap.min.css" />
+    <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="PlantillaPrincipal\index.html" />
+    <Content Include="PlantillaPrincipal\js\bootstrap.js" />
+    <Content Include="PlantillaPrincipal\js\bootstrap.min.js" />
+    <Content Include="PlantillaPrincipal\js\jquery.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -232,6 +243,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="PlantillaPrincipal\LICENSE" />
+    <Content Include="PlantillaPrincipal\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -279,9 +296,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Views\Principal\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\QueryObject\" />
+    <Folder Include="Views\RegisterObject\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

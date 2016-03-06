@@ -55,8 +55,8 @@ namespace AppObjectFinder
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "234201840256488",
-               appSecret: "7bd4ca09e12041ba3862060745893038");
+               appId: "234200766923262",
+               appSecret: "2568791ab58646aa161514b583df3ec3");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {

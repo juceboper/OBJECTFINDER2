@@ -15,14 +15,14 @@ namespace AppObjectFinder.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Breve Descripción de la propuesta de investigación.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Para mayor información consulte:";
 
             return View();
         }
