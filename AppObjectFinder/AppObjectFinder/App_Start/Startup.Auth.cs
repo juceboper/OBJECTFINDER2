@@ -60,8 +60,8 @@ namespace AppObjectFinder
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "609249337144-l3imd9bejfp66jdm6kh43r0d09u9264i.apps.googleusercontent.com",
-                ClientSecret = "DclVEJprg-BQ5EvT70hkZEih"
+                ClientId = "609249337144-4aa9gmk0brat42todsk2nu65oba8ptfv.apps.googleusercontent.com",
+                ClientSecret = "8-_Y8ktlWHQq6_mGoAYhXbz2"
             });
         }
     }
