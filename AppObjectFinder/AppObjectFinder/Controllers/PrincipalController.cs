@@ -11,7 +11,9 @@ namespace AppObjectFinder.Controllers
         // GET: Principal
         public ActionResult Index()
         {
-            return View();
+            AppObjectFinder.Models.PrincipalModels obj = new Models.PrincipalModels();
+            obj.P_nroObjetos = 50;
+            return View(obj);
         }
 
         // GET: Principal/Details/5
