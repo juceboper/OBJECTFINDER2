@@ -1,0 +1,6 @@
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll.config
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.csprojResolveAssemblyReference.cache

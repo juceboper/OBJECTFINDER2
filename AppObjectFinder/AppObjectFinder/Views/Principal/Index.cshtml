@@ -24,10 +24,7 @@
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Objetos Reportados
-                        @if(@Model.P_nroObjetos != null)
-                        {
-                            <small>@Model.P_nroObjetos objetos reportados</small>
-                        }
+                        <small>@Model.P_nroObjetos objetos reportados</small>
                     </h1>
                 </div>
             </div>
@@ -39,131 +36,186 @@
         <!-- Page Header -->
         <!-- /.row -->
         <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-        <hr>
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
+
+        <div class="container-fluid">
+            <div class="row">               
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
+                <div class="mix dogs col-sm-3">
+                    <a href="#">
+                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                    </a>
+                    <h3>
+                        <a href="#">@Model.P_nombreObjeto</a>
+                    </h3>
+                </div>
             </div>
         </div>
-        <!-- /.row -->
-        <hr>
-        <!-- Footer -->
-        <footer>
-        </footer>
+        @*<div class="row">*@
+        @*<div class="col-md-4 portfolio-item">
+                    @if(true)
+                    {
+                        <ul id="grid">
+                            <li></li>
+                        </ul>
+
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <a href="#">
+                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
+                                            </a>
+                                            <h3>
+                                                <a href="#">@Model.P_nombreObjeto</a>
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    }
+
+                </div>
+
+                <footer></footer>
+            </div>*@
     </div>
     <!-- /.container -->
     <!-- jQuery -->

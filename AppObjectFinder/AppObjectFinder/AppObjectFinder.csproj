@@ -203,12 +203,14 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ObjetoController.cs" />
     <Compile Include="Controllers\PrincipalController.cs" />
     <Compile Include="Controllers\QueryObjectController.cs" />
     <Compile Include="Controllers\RegisterObjectController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ImageResult.cs" />
     <Compile Include="Migrations\201602280103445_InitialCreate.cs" />
     <Compile Include="Migrations\201602280103445_InitialCreate.Designer.cs">
       <DependentUpon>201602280103445_InitialCreate.cs</DependentUpon>
@@ -217,6 +219,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ObjetoModels.cs" />
     <Compile Include="Models\PrincipalModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -229,6 +232,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Icono.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\google.png" />
     <Content Include="PlantillaPrincipal\css\3-col-portfolio.css" />
     <Content Include="PlantillaPrincipal\css\bootstrap.css" />
     <Content Include="PlantillaPrincipal\css\bootstrap.min.css" />
@@ -298,6 +303,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Principal\Index.cshtml" />
+    <Content Include="Views\Objeto\Create.cshtml" />
+    <Content Include="Views\Objeto\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -319,6 +326,16 @@
     <EmbeddedResource Include="Migrations\201602280103445_InitialCreate.resx">
       <DependentUpon>201602280103445_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesObjectFinder\EntidadesObjectFinder.csproj">
+      <Project>{d0cbe4a8-0f97-4802-96b7-a6ad922d44c4}</Project>
+      <Name>EntidadesObjectFinder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicaObjectFinder\LogicaObjectFinder.csproj">
+      <Project>{dc398657-75d0-41b4-9fac-aee61d874959}</Project>
+      <Name>LogicaObjectFinder</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

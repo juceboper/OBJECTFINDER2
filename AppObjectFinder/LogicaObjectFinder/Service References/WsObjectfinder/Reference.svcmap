@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a5b8a7b8-2634-493a-b0e2-7745577d5217" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://54.213.131.251/Servicio/WsObjectFinder.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WsObjectFinder.disco" MetadataType="Disco" ID="7a25deaa-5bb7-42a9-9f9c-d00702aaed1b" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?disco" />
+    <MetadataFile FileName="WsObjectFinder.wsdl" MetadataType="Wsdl" ID="c75c5bd0-a2c8-4d24-9ce0-4557645b2855" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?wsdl" />
+    <MetadataFile FileName="WsObjectFinder.xsd" MetadataType="Schema" ID="323f6245-c4b9-4dc0-927c-5bd2958d28bd" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd8" />
+    <MetadataFile FileName="WsObjectFinder1.xsd" MetadataType="Schema" ID="eca4dfc8-db86-416f-a842-046c885976ad" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd9" />
+    <MetadataFile FileName="WsObjectFinder2.xsd" MetadataType="Schema" ID="43b077bb-4052-40cf-9d02-0f5cd3f65660" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd6" />
+    <MetadataFile FileName="WsObjectFinder3.xsd" MetadataType="Schema" ID="1034768a-42c6-480c-92c1-b89cd17247ee" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd7" />
+    <MetadataFile FileName="WsObjectFinder4.xsd" MetadataType="Schema" ID="7c7d8ceb-eb3a-47f1-95f7-7e98ed19afa7" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd4" />
+    <MetadataFile FileName="WsObjectFinder5.xsd" MetadataType="Schema" ID="efc9decd-75b7-4099-9d5a-dc248f12efab" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd5" />
+    <MetadataFile FileName="WsObjectFinder6.xsd" MetadataType="Schema" ID="72d09d6f-a510-4d81-803d-97152f811804" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd2" />
+    <MetadataFile FileName="WsObjectFinder7.xsd" MetadataType="Schema" ID="6c7abbfd-e523-46ab-8c7a-6af95969d420" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd3" />
+    <MetadataFile FileName="WsObjectFinder8.xsd" MetadataType="Schema" ID="226edc44-876d-4bc6-994b-c172473a4318" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd0" />
+    <MetadataFile FileName="WsObjectFinder9.xsd" MetadataType="Schema" ID="8a0e5917-3092-413a-aea7-e534d894d0e3" SourceId="1" SourceUrl="http://54.213.131.251/Servicio/WsObjectFinder.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

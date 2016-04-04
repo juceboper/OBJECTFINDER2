@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppObjectFinder", "AppObjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppObjectFinder.Tests", "AppObjectFinder.Tests\AppObjectFinder.Tests.csproj", "{1B362A22-C486-4889-AC66-B8E951E37685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaObjectFinder", "LogicaObjectFinder\LogicaObjectFinder.csproj", "{DC398657-75D0-41B4-9FAC-AEE61D874959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesObjectFinder", "EntidadesObjectFinder\EntidadesObjectFinder.csproj", "{D0CBE4A8-0F97-4802-96B7-A6AD922D44C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1B362A22-C486-4889-AC66-B8E951E37685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B362A22-C486-4889-AC66-B8E951E37685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B362A22-C486-4889-AC66-B8E951E37685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC398657-75D0-41B4-9FAC-AEE61D874959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC398657-75D0-41B4-9FAC-AEE61D874959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC398657-75D0-41B4-9FAC-AEE61D874959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC398657-75D0-41B4-9FAC-AEE61D874959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CBE4A8-0F97-4802-96B7-A6AD922D44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CBE4A8-0F97-4802-96B7-A6AD922D44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CBE4A8-0F97-4802-96B7-A6AD922D44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CBE4A8-0F97-4802-96B7-A6AD922D44C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
