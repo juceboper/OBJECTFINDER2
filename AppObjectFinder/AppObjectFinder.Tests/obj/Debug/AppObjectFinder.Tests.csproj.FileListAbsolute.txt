@@ -224,8 +224,8 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntityFramework.dll
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\LogicaObjectFinder.dll
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\AppObjectFinder.pdb
@@ -246,8 +246,8 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntityFramework.xml
-C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.pdb
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\LogicaObjectFinder.pdb
+C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.pdb
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
