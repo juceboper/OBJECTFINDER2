@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace AppObjectFinder.Controllers
@@ -11,8 +8,18 @@ namespace AppObjectFinder.Controllers
         // GET: Principal
         public ActionResult Index()
         {
-            AppObjectFinder.Models.PrincipalModels obj = new Models.PrincipalModels();
-            obj.P_nroObjetos = 50;
+            Models.PrincipalModels obj = new Models.PrincipalModels();
+            obj.P_nroObjetos = LogicaObjectFinder.Logica.LogObjectFinder.getNroObjetos(1);
+
+            foreach(var item in LogicaObjectFinder.Logica.LogObjectFinder.getObjetos(1))
+            {
+                obj.P_idCategoria = item.idCategoria;
+                obj.P_idEstado = item.idEstado;
+                obj.P_nombreObjeto = item.nombreObjeto;
+                obj.P_palabrasClaves = item.palabrasClaves;
+                obj.P_idObjeto = item.idObjeto;
+            }
+
             return View(obj);
         }
 
@@ -87,5 +94,20 @@ namespace AppObjectFinder.Controllers
                 return View();
             }
         }
+
+        public FileContentResult GetImage(int idObjeto)
+        {
+            string type = string.Empty;
+            byte[] image = new byte[0];
+
+            foreach(var item in LogicaObjectFinder.Logica.LogObjectFinder.GetImage(idObjeto))
+            {
+                type = item.tipoImagen;
+                image = item.imagen;
+            }
+
+            return File(image, type);
+        }
+
     }
 }
