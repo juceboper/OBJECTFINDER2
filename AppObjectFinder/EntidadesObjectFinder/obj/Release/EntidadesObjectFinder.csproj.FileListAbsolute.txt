@@ -1,0 +1,6 @@
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Release\EntidadesObjectFinder.dll.config
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Release\EntidadesObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Release\EntidadesObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Release\EntidadesObjectFinder.csprojResolveAssemblyReference.cache
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Release\EntidadesObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Release\EntidadesObjectFinder.pdb

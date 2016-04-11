@@ -1,0 +1,6 @@
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Release\LogicaObjectFinder.dll.config
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Release\LogicaObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Release\LogicaObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Release\LogicaObjectFinder.csprojResolveAssemblyReference.cache
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Release\LogicaObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Release\LogicaObjectFinder.pdb

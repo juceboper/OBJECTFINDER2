@@ -162,10 +162,6 @@ C:\Users\Juceboper\Desktop\AppObjectFinder\AppObjectFinder\bin\Microsoft.Owin.Se
 C:\Users\Juceboper\Desktop\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.csprojResolveAssemblyReference.cache
 C:\Users\Juceboper\Desktop\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.dll
 C:\Users\Juceboper\Desktop\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\csc.exe
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Reflection.Metadata.dll
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\ApplicationInsights.config
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\csc.exe
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -276,18 +272,23 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\De
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\AppObjectFinder\obj\Debug\AppObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\ApplicationInsights.config
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\csc.exe
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.CSharp.Core.targets
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Collections.Immutable.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\System.Reflection.Metadata.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\vbc.exe
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\roslyn\VBCSCompiler.exe.config
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\AppObjectFinder.dll.config
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\AppObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\AppObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Antlr3.Runtime.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\CapturaWeb.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\EntidadesObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\EntityFramework.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\EntityFramework.SqlServer.dll
@@ -326,6 +327,7 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\System.Web.W
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\WebGrease.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\EntidadesObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\LogicaObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\CapturaWeb.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Facebook.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.AI.DependencyCollector.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder\bin\Microsoft.AI.ServerTelemetryChannel.xml

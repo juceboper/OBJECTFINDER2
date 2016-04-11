@@ -3,3 +3,9 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
 C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll.config
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.csprojResolveAssemblyReference.cache
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
+D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
