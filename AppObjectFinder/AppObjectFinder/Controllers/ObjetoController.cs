@@ -24,33 +24,41 @@ namespace AppObjectFinder.Controllers
         // GET: Objeto/Create
         public ActionResult Create()
         {
+            cargarCategorias();
+
+            return View();
+        }
+
+        private void cargarCategorias()
+        {
             ObjetoModels objeto = new ObjetoModels();
 
             var items = LogicaObjectFinder.Logica.LogObjectFinder.getCategoria();
 
             ViewBag.ListaCategoria = new SelectList(items, "ID_CATEGORIA", "NOMBRE_CATEGORIA");
-
-            return View();
         }
 
         // POST: Objeto/Create
         [HttpPost]
-        [AllowAnonymous]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(ObjetoModels Objeto)
+        public ActionResult Create(ObjetoModels Objeto, HttpPostedFileBase image)
         {
-
-           
-            if(ModelState.IsValid)
+            if(image != null)
             {
-                // TODO: Add insert logic here
-                EntidadesObjectFinder.Objeto.entObjeto objObjeto = new EntidadesObjectFinder.Objeto.entObjeto();
-
-
-                //objObjeto.idCategoria = collection
-
-                return RedirectToAction("Index");
+                Objeto.
             }
+           
+            //if(ModelState.IsValid)
+            //{
+            //    // TODO: Add insert logic here
+            //    EntidadesObjectFinder.Objeto.entObjeto objObjeto = new EntidadesObjectFinder.Objeto.entObjeto();
+
+
+            //    //objObjeto.idCategoria = collection
+
+            //    return RedirectToAction("Index");
+            //}
+
+            cargarCategorias();
 
             return View(Objeto);
         }

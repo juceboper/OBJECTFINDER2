@@ -15,7 +15,7 @@ namespace LogicaObjectFinder.Logica
         /// </summary>
         /// <param name="idEstado"></param>
         /// <returns></returns>
-       public static int getNroObjetos(int idEstado)
+        public static int getNroObjetos(int idEstado)
         {
             WsObjectfinder.WsObjectFinderClient objservicio = new WsObjectfinder.WsObjectFinderClient();
 
@@ -87,6 +87,22 @@ namespace LogicaObjectFinder.Logica
             {
                 throw;
             }
+        }
+
+        public static void insertarMedia(WsObjectfinder.entMedia media)
+        {
+            WsObjectfinder.WsObjectFinderClient objServicio = new WsObjectfinder.WsObjectFinderClient();
+
+            try
+            {
+                objServicio.Crear_Media(media);
+            }
+            catch(Exception)
+            {
+
+                throw;
+            }
+
         }
     }
 }

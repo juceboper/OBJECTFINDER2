@@ -7,6 +7,5 @@ C:\Users\Juceboper\Documents\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll.config
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.csprojResolveAssemblyReference.cache
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb
