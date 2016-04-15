@@ -229,7 +229,6 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntityFramework.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\LogicaObjectFinder.dll
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\AppObjectFinder.pdb
@@ -251,7 +250,6 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntityFramework.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\LogicaObjectFinder.pdb
-D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\EntidadesObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\es\System.Web.Helpers.resources.dll

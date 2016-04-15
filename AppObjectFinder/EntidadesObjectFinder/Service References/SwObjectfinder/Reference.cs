@@ -928,11 +928,13 @@ namespace EntidadesObjectFinder.SwObjectfinder {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoRespo" +
             "nse")]
-        void Crear_Objeto(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto);
+        [return: System.ServiceModel.MessageParameterAttribute(Name="idObjeto")]
+        int Crear_Objeto(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoRespo" +
             "nse")]
-        System.Threading.Tasks.Task Crear_ObjetoAsync(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto);
+        [return: System.ServiceModel.MessageParameterAttribute(Name="idObjeto")]
+        System.Threading.Tasks.Task<int> Crear_ObjetoAsync(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
             "", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
@@ -1122,11 +1124,11 @@ namespace EntidadesObjectFinder.SwObjectfinder {
             return base.Channel.Crear_RegistroAsync(Registro);
         }
         
-        public void Crear_Objeto(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto) {
-            base.Channel.Crear_Objeto(Objeto);
+        public int Crear_Objeto(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto) {
+            return base.Channel.Crear_Objeto(Objeto);
         }
         
-        public System.Threading.Tasks.Task Crear_ObjetoAsync(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto) {
+        public System.Threading.Tasks.Task<int> Crear_ObjetoAsync(EntidadesObjectFinder.SwObjectfinder.entObjeto Objeto) {
             return base.Channel.Crear_ObjetoAsync(Objeto);
         }
         

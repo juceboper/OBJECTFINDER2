@@ -44,7 +44,7 @@ namespace AppObjectFinder.Controllers
         {
             if(image != null)
             {
-                Objeto.
+                
             }
            
             //if(ModelState.IsValid)
