@@ -9,3 +9,8 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll.config
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb
