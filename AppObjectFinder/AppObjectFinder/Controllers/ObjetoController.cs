@@ -42,6 +42,8 @@ namespace AppObjectFinder.Controllers
         [HttpPost]
         public ActionResult Create(ObjetoModels Objeto, HttpPostedFileBase image)
         {
+            EntidadesObjectFinder.Media.entMedia entMedia = new EntidadesObjectFinder.Media.entMedia();
+
             if(image != null)
             {
                 
