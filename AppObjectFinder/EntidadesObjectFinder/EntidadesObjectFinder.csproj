@@ -78,43 +78,40 @@
     <None Include="Service References\SwObjectfinder\EntidadesObjectFinder.SwObjectfinder.entUsuario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder.wsdl" />
-    <None Include="Service References\SwObjectfinder\WsObjectFinder.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder1.wsdl" />
+    <None Include="Service References\SwObjectfinder\WsObjectFinder10.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder1.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder101.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder2.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder102.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder3.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder103.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder4.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder104.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder5.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder105.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder6.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder106.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder7.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder107.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder8.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder108.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder9.xsd">
+    <None Include="Service References\SwObjectfinder\WsObjectFinder109.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\SwObjectfinder\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SwObjectfinder\WsObjectFinder.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\SwObjectfinder\configuration91.svcinfo" />
@@ -127,6 +124,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SwObjectfinder\WsObjectFinder1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

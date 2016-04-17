@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Media" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Media" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Objeto" />
+  <xs:complexType name="entMedia">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Objeto" base="q1:entObjeto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idMedia" type="xs:int" />
+          <xs:element minOccurs="0" name="idObjeto" type="xs:int" />
+          <xs:element minOccurs="0" name="imagen" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="nombreImagen" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tipoImagen" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="entMedia" nillable="true" type="tns:entMedia" />
+  <xs:complexType name="ArrayOfentMedia">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="entMedia" nillable="true" type="tns:entMedia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfentMedia" nillable="true" type="tns:ArrayOfentMedia" />
+</xs:schema>
