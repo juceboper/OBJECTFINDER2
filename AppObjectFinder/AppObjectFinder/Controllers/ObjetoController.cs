@@ -43,10 +43,21 @@ namespace AppObjectFinder.Controllers
         public ActionResult Create(ObjetoModels Objeto, HttpPostedFileBase image)
         {
             EntidadesObjectFinder.Media.entMedia entMedia = new EntidadesObjectFinder.Media.entMedia();
+            Int32 idObjeto = 0;
 
             if(image != null)
             {
-                
+                entMedia.tipoImagen = image.ContentType;
+                int tamanio = image.ContentLength;
+                byte[] buffer = new byte[tamanio];
+                image.InputStream.Read(buffer,0, tamanio);
+                entMedia.imagen = buffer;
+                entMedia.nombreImagen = image.FileName;
+                entMedia.palabrasClaves = Objeto.P_palabrasClaves;
+
+
+                LogicaObjectFinder.Logica.LogObjectFinder.insertarObjeto(Objeto, entMedia, out idObjeto);
+
             }
            
             //if(ModelState.IsValid)
