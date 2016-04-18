@@ -88,6 +88,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -258,6 +260,13 @@
     <Content Include="PlantillaPrincipal\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="PlantillaPrincipal\LICENSE" />
     <Content Include="PlantillaPrincipal\README.md" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entCategoria.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entEstado.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entFacultad.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entMedia.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entNotificacion.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entObjeto.datasource" />
+    <Content Include="Properties\DataSources\LogicaObjectFinder.WsObjectfinder.entUsuario.datasource" />
     <None Include="Properties\PublishProfiles\AppObjectFinder.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

@@ -43,10 +43,12 @@ namespace AppObjectFinder.Controllers
         public ActionResult Create(ObjetoModels Objeto, HttpPostedFileBase image)
         {
             EntidadesObjectFinder.Media.entMedia entMedia = new EntidadesObjectFinder.Media.entMedia();
+            EntidadesObjectFinder.Objeto.entObjeto entObjeto = new EntidadesObjectFinder.Objeto.entObjeto();
             Int32 idObjeto = 0;
 
             if(image != null)
             {
+                //Entidades de la Imagen
                 entMedia.tipoImagen = image.ContentType;
                 int tamanio = image.ContentLength;
                 byte[] buffer = new byte[tamanio];
@@ -55,8 +57,14 @@ namespace AppObjectFinder.Controllers
                 entMedia.nombreImagen = image.FileName;
                 entMedia.palabrasClaves = Objeto.P_palabrasClaves;
 
+                //Entidades del Objeto
+                entObjeto.idCategoria = Objeto.P_idCategoria;
+                entObjeto.idEstado = 1;
+                entObjeto.nombreObjeto = Objeto.P_nombreObjeto;
+                entObjeto.palabrasClaves = Objeto.P_palabrasClaves;
 
-                LogicaObjectFinder.Logica.LogObjectFinder.insertarObjeto(Objeto, entMedia, out idObjeto);
+
+                LogicaObjectFinder.Logica.LogObjectFinder.insertarObjeto(entObjeto, entMedia, out idObjeto);
 
             }
            

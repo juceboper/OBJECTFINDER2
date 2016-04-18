@@ -60,21 +60,30 @@ namespace LogicaObjectFinder.Logica
             }
         }
 
-        public static void insertarObjeto(WsObjectfinder.entObjeto objeto,WsObjectfinder.entMedia media, out Int32 idObjeto)
+        public static void insertarObjeto(EntidadesObjectFinder.Objeto.entObjeto objeto,EntidadesObjectFinder.Media.entMedia media, out Int32 idObjeto)
         {
             WsObjectfinder.WsObjectFinderClient objServicio = new WsObjectfinder.WsObjectFinderClient();
             WsObjectfinder.entMedia objMedia = new WsObjectfinder.entMedia();
+            WsObjectfinder.entObjeto objObjeto = new WsObjectfinder.entObjeto();
             idObjeto = 0;
+
             try
             {
-                objMedia.idObjeto1 = objServicio.Crear_Objeto(objeto);
+                //Entidades Objeto
+                objObjeto.idCategoria = objeto.idCategoria;
+                objObjeto.idEstado = 1;
+                objObjeto.nombreObjeto = objeto.nombreObjeto;
+                objObjeto.palabrasClaves = objeto.palabrasClaves;
+
+
+                objMedia.idObjeto1 = objServicio.Crear_Objeto(objObjeto);
                 objMedia.nombreImagen = media.nombreImagen;
                 objMedia.nombreObjeto = media.nombreObjeto;
                 objMedia.palabrasClaves = media.palabrasClaves;
                 objMedia.tipoImagen = media.tipoImagen;
                 objMedia.imagen = media.imagen;
 
-                insertarMedia(media);
+                insertarMedia(objMedia);
                 
             }
             catch(Exception)

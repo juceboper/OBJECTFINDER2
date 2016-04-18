@@ -14,3 +14,9 @@ D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\Entida
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll.config
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.dll
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.csprojResolveAssemblyReference.cache
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.dll
+D:\OBJECTFINDER2\AppObjectFinder\EntidadesObjectFinder\obj\Debug\EntidadesObjectFinder.pdb

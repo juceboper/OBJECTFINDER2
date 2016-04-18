@@ -126,6 +126,12 @@
   <ItemGroup>
     <None Include="Service References\WsObjectfinder\WsObjectFinder1.disco" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesObjectFinder\EntidadesObjectFinder.csproj">
+      <Project>{d0cbe4a8-0f97-4802-96b7-a6ad922d44c4}</Project>
+      <Name>EntidadesObjectFinder</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
