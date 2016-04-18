@@ -98,7 +98,7 @@ namespace LogicaObjectFinder.Logica
             }
         }
 
-        public static void insertarMedia(WsObjectfinder.entMedia media)
+        private static void insertarMedia(WsObjectfinder.entMedia media)
         {
             WsObjectfinder.WsObjectFinderClient objServicio = new WsObjectfinder.WsObjectFinderClient();
 
