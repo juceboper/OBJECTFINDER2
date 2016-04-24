@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="BqmvDuCltGTIpppYRML2VQm4+zk=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="TFx391iisp5LGFftoYFBxuE5osQ=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IWsObjectFinder">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IWsObjectFinder" contract="WsObjectfinder.IWsObjectFinder" bindingType="basicHttpBinding" address="http://54.191.196.126/Servicio/WsObjectFinder.svc" bindingConfiguration="BasicHttpBinding_IWsObjectFinder">
+    <endpoint name="BasicHttpBinding_IWsObjectFinder" contract="WsObjectfinder.IWsObjectFinder" bindingType="basicHttpBinding" address="http://localhost:51565/Servicio/WsObjectFinder.svc" bindingConfiguration="BasicHttpBinding_IWsObjectFinder">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://54.191.196.126/Servicio/WsObjectFinder.svc</serializedValue>
+          <serializedValue>http://localhost:51565/Servicio/WsObjectFinder.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

@@ -897,180 +897,186 @@ namespace LogicaObjectFinder.WsObjectfinder {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://localhost:8080/Wcf_ObjectFinder/Servicio/", ConfigurationName="WsObjectfinder.IWsObjectFinder")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://localhost:51565/Wcf_ObjectFinder/Servicio/", ConfigurationName="WsObjectfinder.IWsObjectFinder")]
     public interface IWsObjectFinder {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Usuario", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_UsuarioResp" +
-            "onse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Usuario", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_UsuarioRes" +
+            "ponse")]
         void Crear_Usuario(LogicaObjectFinder.WsObjectfinder.entUsuario Usuario);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Usuario", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_UsuarioResp" +
-            "onse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Usuario", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_UsuarioRes" +
+            "ponse")]
         System.Threading.Tasks.Task Crear_UsuarioAsync(LogicaObjectFinder.WsObjectfinder.entUsuario Usuario);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuari" +
-            "o", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuari" +
-            "oResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuar" +
+            "io", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuar" +
+            "ioResponse")]
         void Actualizar_Usuario(LogicaObjectFinder.WsObjectfinder.entUsuario Usuario);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuari" +
-            "o", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuari" +
-            "oResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuar" +
+            "io", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Usuar" +
+            "ioResponse")]
         System.Threading.Tasks.Task Actualizar_UsuarioAsync(LogicaObjectFinder.WsObjectfinder.entUsuario Usuario);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Registro", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_RegistroRes" +
-            "ponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Registro", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_RegistroRe" +
+            "sponse")]
         void Crear_Registro(LogicaObjectFinder.WsObjectfinder.entRegistro Registro);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Registro", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_RegistroRes" +
-            "ponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Registro", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_RegistroRe" +
+            "sponse")]
         System.Threading.Tasks.Task Crear_RegistroAsync(LogicaObjectFinder.WsObjectfinder.entRegistro Registro);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoRespo" +
-            "nse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoResp" +
+            "onse")]
         [return: System.ServiceModel.MessageParameterAttribute(Name="idObjeto")]
         int Crear_Objeto(LogicaObjectFinder.WsObjectfinder.entObjeto Objeto);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoRespo" +
-            "nse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Objeto", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_ObjetoResp" +
+            "onse")]
         [return: System.ServiceModel.MessageParameterAttribute(Name="idObjeto")]
         System.Threading.Tasks.Task<int> Crear_ObjetoAsync(LogicaObjectFinder.WsObjectfinder.entObjeto Objeto);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
-            "", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
-            "Response")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objet" +
+            "o", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objet" +
+            "oResponse")]
         void Actualizar_Objeto(LogicaObjectFinder.WsObjectfinder.entObjeto Objeto);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
-            "", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objeto" +
-            "Response")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objet" +
+            "o", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Objet" +
+            "oResponse")]
         System.Threading.Tasks.Task Actualizar_ObjetoAsync(LogicaObjectFinder.WsObjectfinder.entObjeto Objeto);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificacio" +
-            "n", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificacio" +
-            "nResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificaci" +
+            "on", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificaci" +
+            "onResponse")]
         void Crear_Notificacion(LogicaObjectFinder.WsObjectfinder.entNotificacion Notificacion);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificacio" +
-            "n", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificacio" +
-            "nResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificaci" +
+            "on", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Notificaci" +
+            "onResponse")]
         System.Threading.Tasks.Task Crear_NotificacionAsync(LogicaObjectFinder.WsObjectfinder.entNotificacion Notificacion);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Media", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_MediaRespon" +
-            "se")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Media", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_MediaRespo" +
+            "nse")]
         void Crear_Media(LogicaObjectFinder.WsObjectfinder.entMedia Media);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Media", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_MediaRespon" +
-            "se")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_Media", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Crear_MediaRespo" +
+            "nse")]
         System.Threading.Tasks.Task Crear_MediaAsync(LogicaObjectFinder.WsObjectfinder.entMedia Media);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_MediaR" +
-            "esponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media" +
+            "Response")]
         void Actualizar_Media(LogicaObjectFinder.WsObjectfinder.entMedia Media);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_MediaR" +
-            "esponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Actualizar_Media" +
+            "Response")]
         System.Threading.Tasks.Task Actualizar_MediaAsync(LogicaObjectFinder.WsObjectfinder.entMedia Media);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Categoria", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_CategoriaResp" +
-            "onse")]
-        LogicaObjectFinder.WsObjectfinder.entCategoria[] Get_Categoria();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Categoria", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_CategoriaResp" +
-            "onse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entCategoria[]> Get_CategoriaAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Estado", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_EstadoRespons" +
-            "e")]
-        LogicaObjectFinder.WsObjectfinder.entEstado[] Get_Estado();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Estado", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_EstadoRespons" +
-            "e")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entEstado[]> Get_EstadoAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Facultad", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_FacultadRespo" +
-            "nse")]
-        LogicaObjectFinder.WsObjectfinder.entFacultad[] Get_Facultad();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Facultad", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_FacultadRespo" +
-            "nse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entFacultad[]> Get_FacultadAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjetoR" +
-            "esponse")]
-        LogicaObjectFinder.WsObjectfinder.entMedia[] Get_MediaxObjeto(int idObjeto);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjetoR" +
-            "esponse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entMedia[]> Get_MediaxObjetoAsync(int idObjeto);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_NotificacionR" +
-            "esponse")]
-        LogicaObjectFinder.WsObjectfinder.entNotificacion[] Get_Notificacion(int idObjeto);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_NotificacionR" +
-            "esponse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entNotificacion[]> Get_NotificacionAsync(int idObjeto);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_All", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_AllRes" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Categoria", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_CategoriaRes" +
             "ponse")]
-        LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_Objeto_All();
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entCategoria> Get_Categoria();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_All", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_AllRes" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Categoria", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_CategoriaRes" +
             "ponse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_Objeto_AllAsync();
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entCategoria>> Get_CategoriaAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_All", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_AllResp" +
-            "onse")]
-        LogicaObjectFinder.WsObjectfinder.entMedia[] Get_Media_All();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_All", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_AllResp" +
-            "onse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entMedia[]> Get_Media_AllAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Usuario", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_UsuarioRespon" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Estado", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_EstadoRespon" +
             "se")]
-        LogicaObjectFinder.WsObjectfinder.entUsuario[] Get_Usuario();
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entEstado> Get_Estado();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Usuario", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_UsuarioRespon" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Estado", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_EstadoRespon" +
             "se")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entUsuario[]> Get_UsuarioAsync();
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entEstado>> Get_EstadoAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuari" +
-            "o", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuari" +
-            "oResponse")]
-        LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_ObjetoxUsuario(int idUsuario);
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Facultad", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_FacultadResp" +
+            "onse")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entFacultad> Get_Facultad();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuari" +
-            "o", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuari" +
-            "oResponse")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_ObjetoxUsuarioAsync(int idUsuario);
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Facultad", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_FacultadResp" +
+            "onse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entFacultad>> Get_FacultadAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_A" +
-            "ll", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_A" +
-            "llResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto" +
+            "Response")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia> Get_MediaxObjeto(int idObjeto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_MediaxObjeto" +
+            "Response")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia>> Get_MediaxObjetoAsync(int idObjeto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion" +
+            "Response")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entNotificacion> Get_Notificacion(int idObjeto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion" +
+            "", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Notificacion" +
+            "Response")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entNotificacion>> Get_NotificacionAsync(int idObjeto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_AllRe" +
+            "sponse")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_Objeto_All();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto_AllRe" +
+            "sponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_Objeto_AllAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_AllRes" +
+            "ponse")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia> Get_Media_All();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Media_AllRes" +
+            "ponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia>> Get_Media_AllAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Usuario", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_UsuarioRespo" +
+            "nse")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entUsuario> Get_Usuario();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Usuario", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_UsuarioRespo" +
+            "nse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entUsuario>> Get_UsuarioAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuar" +
+            "io", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuar" +
+            "ioResponse")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_ObjetoxUsuario(int idUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuar" +
+            "io", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoxUsuar" +
+            "ioResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_ObjetoxUsuarioAsync(int idUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_" +
+            "All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_" +
+            "AllResponse")]
         int Get_Nro_Objetos_All();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_A" +
-            "ll", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_A" +
-            "llResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_" +
+            "All", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos_" +
+            "AllResponse")]
         System.Threading.Tasks.Task<int> Get_Nro_Objetos_AllAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_ObjetosRe" +
-            "sponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_ObjetosR" +
+            "esponse")]
         int Get_Nro_Objetos(int idEstado);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_ObjetosRe" +
-            "sponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_Objetos", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Nro_ObjetosR" +
+            "esponse")]
         System.Threading.Tasks.Task<int> Get_Nro_ObjetosAsync(int idEstado);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoRespons" +
-            "e")]
-        LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_Objeto(int idEstado);
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoRespon" +
+            "se")]
+        System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_Objeto(int idEstado);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto", ReplyAction="http://localhost:8080/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoRespons" +
-            "e")]
-        System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_ObjetoAsync(int idEstado);
+        [System.ServiceModel.OperationContractAttribute(Action="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_Objeto", ReplyAction="http://localhost:51565/Wcf_ObjectFinder/Servicio/IWsObjectFinder/Get_ObjetoRespon" +
+            "se")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_ObjetoAsync(int idEstado);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -1164,75 +1170,75 @@ namespace LogicaObjectFinder.WsObjectfinder {
             return base.Channel.Actualizar_MediaAsync(Media);
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entCategoria[] Get_Categoria() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entCategoria> Get_Categoria() {
             return base.Channel.Get_Categoria();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entCategoria[]> Get_CategoriaAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entCategoria>> Get_CategoriaAsync() {
             return base.Channel.Get_CategoriaAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entEstado[] Get_Estado() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entEstado> Get_Estado() {
             return base.Channel.Get_Estado();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entEstado[]> Get_EstadoAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entEstado>> Get_EstadoAsync() {
             return base.Channel.Get_EstadoAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entFacultad[] Get_Facultad() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entFacultad> Get_Facultad() {
             return base.Channel.Get_Facultad();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entFacultad[]> Get_FacultadAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entFacultad>> Get_FacultadAsync() {
             return base.Channel.Get_FacultadAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entMedia[] Get_MediaxObjeto(int idObjeto) {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia> Get_MediaxObjeto(int idObjeto) {
             return base.Channel.Get_MediaxObjeto(idObjeto);
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entMedia[]> Get_MediaxObjetoAsync(int idObjeto) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia>> Get_MediaxObjetoAsync(int idObjeto) {
             return base.Channel.Get_MediaxObjetoAsync(idObjeto);
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entNotificacion[] Get_Notificacion(int idObjeto) {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entNotificacion> Get_Notificacion(int idObjeto) {
             return base.Channel.Get_Notificacion(idObjeto);
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entNotificacion[]> Get_NotificacionAsync(int idObjeto) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entNotificacion>> Get_NotificacionAsync(int idObjeto) {
             return base.Channel.Get_NotificacionAsync(idObjeto);
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_Objeto_All() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_Objeto_All() {
             return base.Channel.Get_Objeto_All();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_Objeto_AllAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_Objeto_AllAsync() {
             return base.Channel.Get_Objeto_AllAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entMedia[] Get_Media_All() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia> Get_Media_All() {
             return base.Channel.Get_Media_All();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entMedia[]> Get_Media_AllAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entMedia>> Get_Media_AllAsync() {
             return base.Channel.Get_Media_AllAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entUsuario[] Get_Usuario() {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entUsuario> Get_Usuario() {
             return base.Channel.Get_Usuario();
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entUsuario[]> Get_UsuarioAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entUsuario>> Get_UsuarioAsync() {
             return base.Channel.Get_UsuarioAsync();
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_ObjetoxUsuario(int idUsuario) {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_ObjetoxUsuario(int idUsuario) {
             return base.Channel.Get_ObjetoxUsuario(idUsuario);
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_ObjetoxUsuarioAsync(int idUsuario) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_ObjetoxUsuarioAsync(int idUsuario) {
             return base.Channel.Get_ObjetoxUsuarioAsync(idUsuario);
         }
         
@@ -1252,11 +1258,11 @@ namespace LogicaObjectFinder.WsObjectfinder {
             return base.Channel.Get_Nro_ObjetosAsync(idEstado);
         }
         
-        public LogicaObjectFinder.WsObjectfinder.entObjeto[] Get_Objeto(int idEstado) {
+        public System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto> Get_Objeto(int idEstado) {
             return base.Channel.Get_Objeto(idEstado);
         }
         
-        public System.Threading.Tasks.Task<LogicaObjectFinder.WsObjectfinder.entObjeto[]> Get_ObjetoAsync(int idEstado) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<LogicaObjectFinder.WsObjectfinder.entObjeto>> Get_ObjetoAsync(int idEstado) {
             return base.Channel.Get_ObjetoAsync(idEstado);
         }
     }

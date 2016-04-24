@@ -55,6 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entCategoria.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entEstado.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entFacultad.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entMedia.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entNotificacion.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entObjeto.datasource" />
+    <None Include="Properties\DataSources\EntidadesObjectFinder.SwObjectfinder.entUsuario.datasource" />
     <None Include="Service References\WsObjectfinder\LogicaObjectFinder.WsObjectfinder.entCategoria.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -76,35 +83,35 @@
     <None Include="Service References\WsObjectfinder\LogicaObjectFinder.WsObjectfinder.entUsuario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder1.wsdl" />
-    <None Include="Service References\WsObjectfinder\WsObjectFinder10.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder.wsdl" />
+    <None Include="Service References\WsObjectfinder\WsObjectFinder.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder101.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder102.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder103.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder104.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder4.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder105.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder5.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder106.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder6.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder107.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder7.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder108.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder8.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder109.xsd">
+    <None Include="Service References\WsObjectfinder\WsObjectFinder9.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -124,13 +131,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WsObjectfinder\WsObjectFinder1.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\EntidadesObjectFinder\EntidadesObjectFinder.csproj">
       <Project>{d0cbe4a8-0f97-4802-96b7-a6ad922d44c4}</Project>
       <Name>EntidadesObjectFinder</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsObjectfinder\WsObjectFinder.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -35,10 +35,10 @@ namespace LogicaObjectFinder.Logica
         public static ICollection<WsObjectfinder.entObjeto> getObjetos(int idEstado)
         {
             WsObjectfinder.WsObjectFinderClient objservicio = new WsObjectfinder.WsObjectFinderClient();
-
+           
             try
             {
-                return objservicio.Get_Objeto(idEstado);
+                return objservicio.Get_Objeto(idEstado).ToList();
             }
             catch(Exception)
             {

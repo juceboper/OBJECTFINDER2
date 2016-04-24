@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://localhost:8080/Wcf_ObjectFinder/Servicio/" elementFormDefault="qualified" targetNamespace="http://localhost:8080/Wcf_ObjectFinder/Servicio/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Usuario" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Registro" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Objeto" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Notificacion" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Media" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Categoria" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Estado" />
-  <xs:import schemaLocation="http://54.191.196.126/Servicio/WsObjectFinder.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Facultad" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Usuario" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Registro" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Objeto" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Notificacion" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Media" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Categoria" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Estado" />
+  <xs:import schemaLocation="http://localhost:51565/Servicio/WsObjectFinder.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/Entities_ObjectFinder.Facultad" />
   <xs:element name="Crear_Usuario">
     <xs:complexType>
       <xs:sequence>
