@@ -1,4 +1,4 @@
-﻿@model AppObjectFinder.Models.PrincipalModels
+﻿@model AppObjectFinder.Models.EntradaModels
 
 @{
     ViewBag.Title = "Objetos Reportados";
@@ -24,7 +24,7 @@
                 <div class="col-lg-12">
                     <h1 class="page-header">
                         Objetos Reportados
-                        <small>@Model.P_nroObjetos objetos reportados</small>
+                        <small>@Model.ListaPrincipal.Count() objetos reportados</small>
                     </h1>
                 </div>
             </div>
@@ -38,184 +38,88 @@
         <!-- Projects Row -->
 
         <div class="container-fluid">
-            <div class="row">               
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-                <div class="mix dogs col-sm-3">
-                    <a href="#">
-                        <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                    </a>
-                    <h3>
-                        <a href="#">@Model.P_nombreObjeto</a>
-                    </h3>
-                </div>
-            </div>
-        </div>
-        @*<div class="row">*@
-        @*<div class="col-md-4 portfolio-item">
-                    @if(true)
-                    {
-                        <ul id="grid">
-                            <li></li>
-                        </ul>
+            <div class="row">
+                <br />
+                @foreach(var item in Model.ListaPrincipal)
+                {
+                    <div class="mix dogs col-sm-3">
+                        <a href="#">
 
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <a href="#">
-                                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = @Model.P_idObjeto })' />
-                                            </a>
-                                            <h3>
-                                                <a href="#">@Model.P_nombreObjeto</a>
-                                            </h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                            <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = item.P_idObjeto })' />
+
+                            <h3>
+                                <a href="#">@item.P_nombreObjeto</a>
+                            </h3>
+
+                            <h5>
+                                @System.DateTime.Now.ToShortDateString()
+                            </h5>
+                            <section style="text-align:justify">
+                                A través de esta plataforma puedes registrar tantos objetos que hayas encontrado. La finalidad de la plataforma es la administración de los objetos perdidos con el fin ayudar en lo posible aquella persona que haya extraviado el mismo.
+                            </section>
+
+                            <br />
+                            <br />
+                        </a>
+                    </div>
+                }
+
+                @*@foreach(var item in Model.ListaPrincipal)
+                    {
+                        <div class="mix dogs col-sm-3">
+                            <a href="#">
+
+                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = item.P_idObjeto })' />
+
+                                <h3>
+                                    <a href="#">@item.P_nombreObjeto</a>
+                                </h3>
+
+                                <section style="text-align:justify">A través de esta plataforma puedes registrar tantos objetos que hayas encontrado. La finalidad de la plataforma es la administración de los objetos perdidos con el fin ayudar en lo posible aquella persona que haya extraviado el mismo.</section>
+                                <br />
+                                <br />
+                            </a>
+                        </div>
                     }
 
-                </div>
+                    @foreach(var item in Model.ListaPrincipal)
+                    {
+                        <div class="mix dogs col-sm-3">
+                            <a href="#">
 
-                <footer></footer>
-            </div>*@
+                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = item.P_idObjeto })' />
+
+                                <h3>
+                                    <a href="#">@item.P_nombreObjeto</a>
+                                </h3>
+
+                                <section style="text-align:justify">A través de esta plataforma puedes registrar tantos objetos que hayas encontrado. La finalidad de la plataforma es la administración de los objetos perdidos con el fin ayudar en lo posible aquella persona que haya extraviado el mismo.</section>
+                                <br />
+                                <br />
+                            </a>
+                        </div>
+                    }
+
+                    @foreach(var item in Model.ListaPrincipal)
+                    {
+                        <div class="mix dogs col-sm-3">
+                            <a href="#">
+
+                                <img width="200" height="200" src='@Url.Action("GetImage", "Principal", new { idObjeto = item.P_idObjeto })' />
+
+                                <h3>
+                                    <a href="#">@item.P_nombreObjeto</a>
+                                </h3>
+
+                                <section style="text-align:justify">A través de esta plataforma puedes registrar tantos objetos que hayas encontrado. La finalidad de la plataforma es la administración de los objetos perdidos con el fin ayudar en lo posible aquella persona que haya extraviado el mismo.</section>
+
+                                <br />
+                                <br />
+                            </a>
+                        </div>
+                    }*@
+            </div>
+        </div>
     </div>
     <!-- /.container -->
     <!-- jQuery -->
@@ -223,5 +127,3 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 </body>
-
-

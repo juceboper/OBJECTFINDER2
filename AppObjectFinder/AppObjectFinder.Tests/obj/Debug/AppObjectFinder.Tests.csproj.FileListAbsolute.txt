@@ -352,7 +352,6 @@ D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObj
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\obj\Debug\AppObjectFinder.Tests.csprojResolveAssemblyReference.cache
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\obj\Debug\AppObjectFinder.Tests.dll
 D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\AppObjectFinder.Tests\obj\Debug\AppObjectFinder.Tests.pdb
-D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\VBCSCompiler.exe
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\ApplicationInsights.config
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\csc.exe
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -364,6 +363,7 @@ D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\Microsof
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\vbc.exe
+D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\VBCSCompiler.exe
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\AppObjectFinder.Tests.dll.config
 D:\OBJECTFINDER2\AppObjectFinder\AppObjectFinder.Tests\bin\Debug\AppObjectFinder.Tests.dll
