@@ -8,11 +8,6 @@ D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\Log
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
 D:\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
-D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll.config
-D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll
-D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
-D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
-D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll.config
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
@@ -21,3 +16,11 @@ D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\bin\Debug\EntidadesObjectFin
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.csprojResolveAssemblyReference.cache
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
 D:\OBJECTFINDER2\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll.config
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.dll
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\LogicaObjectFinder.pdb
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\EntidadesObjectFinder.dll
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\bin\Debug\EntidadesObjectFinder.pdb
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.csprojResolveAssemblyReference.cache
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.dll
+D:\JULIO.BOLAÑOS\ESCRITORIO\GITHUB PROJECTS\OBJECTFINDER\AppObjectFinder\LogicaObjectFinder\obj\Debug\LogicaObjectFinder.pdb
