@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace AppObjectFinder.Controllers
@@ -8,19 +9,28 @@ namespace AppObjectFinder.Controllers
         // GET: Principal
         public ActionResult Index()
         {
-            Models.PrincipalModels obj = new Models.PrincipalModels();
-            obj.P_nroObjetos = LogicaObjectFinder.Logica.LogObjectFinder.getNroObjetos(1);
+            Models.EntradaModels entrada = new Models.EntradaModels();
+
+            Models.PrincipalModels obj;
+            List<Models.PrincipalModels> listaObjetos = new List<Models.PrincipalModels>();
+            //obj.P_nroObjetos = LogicaObjectFinder.Logica.LogObjectFinder.getNroObjetos(1);
 
             foreach(var item in LogicaObjectFinder.Logica.LogObjectFinder.getObjetos(1))
             {
+                obj = new Models.PrincipalModels();
+
                 obj.P_idCategoria = item.idCategoria;
                 obj.P_idEstado = item.idEstado;
                 obj.P_nombreObjeto = item.nombreObjeto;
                 obj.P_palabrasClaves = item.palabrasClaves;
                 obj.P_idObjeto = item.idObjeto;
+
+                listaObjetos.Add(obj);
             }
 
-            return View(obj);
+            entrada.ListaPrincipal = listaObjetos;
+
+            return View(entrada);
         }
 
         // GET: Principal/Details/5
